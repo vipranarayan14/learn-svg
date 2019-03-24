@@ -2,6 +2,15 @@
 
   <rect width="100%" height="100%" fill="#dbf0fd" />
 
+  <!-- rainbow -->
+  <path d="M-100 800, A 1 1, 0 0 1, 1520 800" fill="transparent" stroke="#FF0000" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-90 800, A 1 1, 0 0 1, 1510 800" fill="transparent" stroke="#FF7F00" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-80 800, A 1 1, 0 0 1, 1500 800" fill="transparent" stroke="#FFFF00" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-70 800, A 1 1, 0 0 1, 1490 800" fill="transparent" stroke="#00FF00" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-60 800, A 1 1, 0 0 1, 1480 800" fill="transparent" stroke="#0000FF" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-50 800, A 1 1, 0 0 1, 1470 800" fill="transparent" stroke="#4B0082" stroke-width="10" stroke-opacity="0.4"/>
+  <path d="M-40 800, A 1 1, 0 0 1, 1460 800" fill="transparent" stroke="#9400D3" stroke-width="10" stroke-opacity="0.4"/>
+  
   <!-- lawn -->
   <path 
     d="M0 800, v-100, l40 -20, l5 20, l40 -20, l5 20, l40 -20, l5 20, l40 -20, l5 20, 
@@ -16,16 +25,9 @@
   />
 
   <!-- sun -->
-  <circle cx="900" cy="190" r="75" fill="#f8e1a6"/>
-  <circle cx="900" cy="190" r="90" fill="#f8e1a6" opacity="0.4"/>
+  <circle cx="1450" cy="190" r="75" fill="#f8e1a6"/>
+  <circle cx="1450" cy="190" r="90" fill="#f8e1a6" opacity="0.4"/>
 
-  <path d="M-100 800, A 1 1, 0 0 1, 1520 800" fill="transparent" stroke="#FF0000" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-90 800, A 1 1, 0 0 1, 1510 800" fill="transparent" stroke="#FF7F00" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-80 800, A 1 1, 0 0 1, 1500 800" fill="transparent" stroke="#FFFF00" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-70 800, A 1 1, 0 0 1, 1490 800" fill="transparent" stroke="#00FF00" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-60 800, A 1 1, 0 0 1, 1480 800" fill="transparent" stroke="#0000FF" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-50 800, A 1 1, 0 0 1, 1470 800" fill="transparent" stroke="#4B0082" stroke-width="10" stroke-opacity="0.4"/>
-  <path d="M-40 800, A 1 1, 0 0 1, 1460 800" fill="transparent" stroke="#9400D3" stroke-width="10" stroke-opacity="0.4"/>
   <!-- frame -->
   <rect x="150" y="325" width="500" height="475" fill="#EEB422"/>
 
@@ -44,7 +46,7 @@
   <!-- tree -->
   <!-- tree-trunk -->
   <path 
-    d="M1190 275, 
+    d="M890 275, 
       c 50 175, 50 350, -50 525, 
       h 300, 
       c -150 -175, -150 -350, -100 -525" 
@@ -53,7 +55,7 @@
 
   <!-- tree-head-->
   <path 
-    d="M1200 400, 
+    d="M900 400, 
       c -100 150, -300 150, -250 -150, 
       c -50 -150, -50 -250, 200 -200,
       c 150 -50, 200 -50, 300 50,
